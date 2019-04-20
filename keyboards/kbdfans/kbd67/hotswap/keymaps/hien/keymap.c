@@ -73,9 +73,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,----------------------------------------------------------------.
    * |    |  |   |   |   |   |   |   |   |  /|  *|  -|  =|   |   |     |
    * |-----------------------------------------------------------------|
-   * |     |   |   |   |   |   |   |   |  7|  8|  9|  +|   | BSPC|     |
+   * |     |   | Up|   |   |   |   |   |  7|  8|  9|  +|   | BSPC|     |
    * |-----------------------------------------------------------------|
-   * |       |   |   |   |   |   |   |   |  4|  5|  6| + | Enter |     |
+   * |       |Lft|Dow|Rght|   |   |   |   |  4|  5|  6| + | Enter |     |
    * |-----------------------------------------------------------------|
    * |        |   |   |   |   |   |   |   |  1|  2|  3|      |   |     |
    * |-----------------------------------------------------------------|
@@ -83,11 +83,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * `----------------------------------------------------------------'`
    */
 [_NUMPAD] = LAYOUT(
-  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_PSLS, KC_PAST, KC_PMNS, KC_EQL,   KC_TRNS, KC_TRNS, KC_TRNS, \
-  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P7,    KC_P8,  KC_P9,   KC_PPLS, KC_TRNS,  KC_BSPC,          KC_TRNS, \
-  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P4,    KC_P5,  KC_P6,   KC_PPLS,           KC_PENT,          KC_TRNS, \
-  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P1,    KC_P2,  KC_P3,   KC_TRNS,                    KC_TRNS, KC_TRNS, \
-  KC_TRNS, KC_TRNS, KC_TRNS,                   KC_TRNS,                             KC_P0,  KC_PDOT,                    KC_TRNS, KC_TRNS, KC_TRNS),
+  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_PSLS, KC_PAST, KC_PMNS, KC_EQL,   KC_TRNS, KC_TRNS, KC_TRNS, \
+  KC_TRNS, KC_TRNS, KC_UP,   KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P7,    KC_P8,  KC_P9,   KC_PPLS, KC_TRNS,  KC_BSPC,          KC_TRNS, \
+  KC_TRNS, KC_LEFT, KC_DOWN, KC_RIGHT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P4,    KC_P5,  KC_P6,   KC_PPLS,           KC_PENT,          KC_TRNS, \
+  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_P1,    KC_P2,  KC_P3,   KC_TRNS,                    KC_TRNS, KC_TRNS, \
+  KC_TRNS, KC_TRNS, KC_TRNS,                    KC_TRNS,                             KC_P0,  KC_PDOT,                    KC_TRNS, KC_TRNS, KC_TRNS),
 };
 
 
